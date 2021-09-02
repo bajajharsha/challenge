@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: hsl(0, 0%, 95%);
+        }
+
+        h1 {
+            font-family: 'Big Shoulders Display', cursive;
+        }
+
+        p {
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 15px;
+        }
+
+        div {
+            color: white;
+            margin: 0px;
+            float: left;
+            width: 210px;
+            height: 355px;
+            padding: 50px;
+            position: relative;
+            top: 100px;
+            left: 205px;
+        }
+
+        .sedans {
+            background: hsl(31, 77%, 52%);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .suvs {
+            background: hsl(184, 100%, 22%);
+        }
+
+        .luxury {
+            background: hsl(179, 100%, 13%);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        a {
+
+            font-weight: bold;
+            padding: 13px 30px;
+            border: none;
+            cursor: pointer;
+            background: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-family: 'Lexend Deca', sans-serif;
+            position: relative;
+            top: 100px;
+        }
+
+        a:hover {
+            border: 2px solid white;
+            color: white;
+        }
+
+        a.one:hover {
+            background: hsl(31, 77%, 52%);
+        }
+
+        a.two:hover {
+            background: hsl(184, 100%, 22%);
+        }
+
+        a.three:hover {
+            background: hsl(179, 100%, 13%);
+        }
+
+        .one {
+            color: hsl(31, 77%, 52%);
+        }
+
+        .two {
+            color: hsl(184, 100%, 22%);
+        }
+
+        .three {
+            color: hsl(179, 100%, 13%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sedans">
+        <img src="./images/icon-sedans.svg" alt="sedans">
+        <h1>SEDANS</h1>
+        <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+            or on your next road trip.</p>
+        <a href="#" class="one">Learn More</a>
+    </div>
+    <div class="suvs">
+        <img src="./images/icon-suvs.svg" alt="suvs">
+        <h1>SUVS</h1>
+        <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+            and off-road adventures.</p>
+        <a href="#" class="two">Learn More</a>
+    </div>
+    <div class="luxury">
+        <img src="./images/icon-luxury.svg" alt="luxury">
+        <h1>
+            LUXURY</h1>
+        <p> Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+            rental and arrive in style.</p>
+        <a href="#" class="three">Learn More</a>
+    </div>
+
+</body>
+
+</html>
